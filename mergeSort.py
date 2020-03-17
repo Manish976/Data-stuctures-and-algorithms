@@ -1,4 +1,4 @@
-# Python program for implementation of MergeSort 
+
 def mergeSort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2  # Finding the mid of the array
@@ -43,10 +43,12 @@ def printList(arr):
 # driver code to test the above code
 if __name__ == '__main__':
     arr = [12, 11, 13, 5, 6, 7]
-    print("Given array is", end="\n")
+    print("Given array is")
     printList(arr)
     mergeSort(arr)
-    print("Sorted array is: ", end="\n")
+    print("Sorted array is: ")
     printList(arr)
+
+
 
 
